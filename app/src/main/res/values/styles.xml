@@ -7,5 +7,6 @@
     </style>
     <style name="MyCustomTabLayout" parent="Widget.Design.TabLayout">
         <item name="tabIndicatorColor">@color/ColorPrimaryDark</item>
+
     </style>
 </resources>

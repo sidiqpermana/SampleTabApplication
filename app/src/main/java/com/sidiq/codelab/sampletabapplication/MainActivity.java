@@ -37,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
         tabs.setTabTextColors(getResources().getColor(R.color.ColorPrimaryDark),
                 getResources().getColor(android.R.color.white));
 
+
         //set tab ke ViewPager
         tabs.setupWithViewPager(pager);
 
