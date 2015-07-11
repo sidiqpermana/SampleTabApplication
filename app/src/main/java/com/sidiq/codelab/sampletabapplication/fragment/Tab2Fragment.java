@@ -35,7 +35,7 @@ public class Tab2Fragment extends Fragment {
         btnClickMe.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getActivity(), "Hola", Toast.LENGTH_LONG).show();
+                Toast.makeText(getActivity(), "Hola Ini dari tab 2", Toast.LENGTH_LONG).show();
             }
         });
     }
