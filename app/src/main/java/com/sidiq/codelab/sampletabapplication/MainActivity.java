@@ -36,8 +36,8 @@ public class MainActivity extends AppCompatActivity {
         //Manimpilasi sedikit untuk set TextColor pada Tab
         tabs.setTabTextColors(getResources().getColor(R.color.ColorPrimaryDark),
                 getResources().getColor(android.R.color.white));
-
-
+        tabs.setSmoothScrollingEnabled(true);
+        tabs.setFillViewport(true);
         //set tab ke ViewPager
         tabs.setupWithViewPager(pager);
 

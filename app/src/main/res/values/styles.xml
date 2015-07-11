@@ -6,7 +6,7 @@
         <item name="android:windowActionBar">false</item>
     </style>
     <style name="MyCustomTabLayout" parent="Widget.Design.TabLayout">
-        <item name="tabIndicatorColor">@color/ColorPrimaryDark</item>
+        <item name="tabIndicatorColor">@android:color/white</item>
 
     </style>
 </resources>
